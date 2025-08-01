@@ -1,4 +1,4 @@
-baseURL: "https://vineetag.netlify.app/"
+baseURL: "https://vineetag-portfolio.netlify.app/"
 languageCode: en-us
 theme: raditian-free-hugo-theme-data-science
 params:
