@@ -1,0 +1,215 @@
+head:
+  title: "Vineet Agarwal's Data Science Portfolio"
+
+# showcase
+showcase:
+  enable: true
+  title: "Vineet Kumar Agarwal."
+  subtitle: "Data Scientist"
+  description: " Write a brief Summary"
+  image:
+    x: "img/showcase/mlops.gif"
+    _2x: "img/showcase/mlops.gif"
+  imageMobile:
+    x: "img/showcase/mlops.gif"
+    _2x: "img/showcase/mlops.gif"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact Vineet"
+    URL: "mailto:vineet.agarw0l@gmail.com"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/vineet-agarwal10"
+
+    - icon: "github"
+      URL: "github.com/Vineet-10"
+
+    - icon: "codepen"
+      URL: "#"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content:
+    <p class="lead">
+    <strong>Growing up in the Himalayas of Sikkim, India, I developed a deep fascination with engineering,
+    where I first learned to see patterns and systems in the world around me.
+    This curiosity led me to pursue a background in computer engineering, which eventually evolved into a passion for Data Science.
+    </p>
+    <p class="lead">
+    <strong>My area of focus</strong> is on leveraging data science to drive business growth / research. I specialize in analyzing data to uncover
+    insights that improves efficieny and enhance decision-making. Working with stakeholders to develop data-driven solutions for business challenges excites me,
+    and I am dedicated to staying current with the ever-evolving landscape of AI and machine learning.
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/vineet-agarwal10"
+  image:
+    x: "img/who-am-i/user.jpg"
+    _2x: "img/who-am-i/user.jpg"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Over 3+ years of experience working with companies from all over the world. I specialize in developing data-driven products ,from dashboards to data science solutions, to help businesses increase profitability and improve customer experience."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/vineet-agarwal10"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "#"
+
+
+  items:
+    - title: "Data Analyst"
+      company: "Data Radian Technologies (Fortune Brands Innovations)"
+      duration: "Jun 2022 - May 2024"
+
+    - title: "Business Intelligence Analyst"
+      company: "Flex by Finaxar"
+      duration: "Aug 2022 - Oct 202023"
+
+    - title: "Data Science Engineer"
+      company: "Smart Energy Water"
+      duration: "Jul 2011 - May 2022"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "Otto Von Guericke University"
+      year: "2024 - Present"
+      degree: "Masters in Data and Knowledge Engineering"
+
+    - university: "BML Munjal University"
+      year: "2017-2021"
+      degree: "Bachelor of Technology in Computer Science and Engineering"
+
+
+
+
+# Client & Work
+client_and_work:
+  title: "Portfolio"
+  enable: true
+
+  enable_clients: false
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  works:
+    - title: "Simulation and Analysis of Shipment Trajectories"
+      description: "Developing a physics-based and machine learning model in Python to predict shipment trajectories based on environmental data analysis of historical AIS datasets for ships
+                    operating in the Rheinhafen and Cuxhafen port regions. StreamLit UI being used for Frontend Simulation"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "GitHub Repo"
+        URL: "https://github.com/Vineet-10/Simulation-and-Analysis-of-Shipment-Trajectories"
+      image:
+        x: "img/works/shipment.png"
+        _2x: "img/works/shipment.png"
+      is_even: true
+
+    - title: "GastroTrust: A Restaurant Review Authentication Platform"
+      description: "Built an AI powered web-based platform using Human Centered Artificial Intelligence (HCAI) & Explainable AI principles to enhance restaurant review authenticity for our client,
+                    integrating machine learning algorithms for sentiment analysis and review scoring. "
+      button:
+        icon: "icon-arrow-right"
+        btnText: "GitHub Repo"
+        URL: "https://github.com/Vineet-10/GastroTrust/tree/main/GastroTrust1"
+      image:
+        x: "img/works/gastro.png"
+        _2x: "img/works/gastro.png"
+      is_even: false
+
+
+
+# testimonial
+testimonial:
+  enable: true
+  title: "Testimonials"
+  items:
+
+    - name: "Justin Kurland, PhD"
+      position: "Lead Data Scientist, Northwestern Mutual"
+      content: "In less than 6 months after starting my first Business Science Course with Matt I had fully transitioned into a role as a lead data scientist and my life is better for it!"
+      image:
+        x: "img/testimonials/justin.jpg"
+        _2x: "img/testimonials/justin.jpg"
+
+    - name: "Chris Selig"
+      position: "Data Scientist"
+      content: "Because of all the R courses Matt Dancho has provided, I landed my first Data Scientist role. Setting up shiny dashboards in AWS was extremely helpful during my interview."
+      image:
+        x: "img/testimonials/chris.jpg"
+        _2x: "img/testimonials/chris.jpg"
+
+
+
+    - name: "Mohana Krishna Chittoor"
+      position: "Lead Data Scientist, Money View"
+      content: "After your entry into my life, I got a 10% pay raise and then after another 6-months of 26%, and in just another 2-months a 40% hike. I can grab a job wherever I want."
+      image:
+        x: "img/testimonials/mohana.jpg"
+        _2x: "img/testimonials/mohana.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contact Vineet"
+
+  image:
+    x: "img/who-am-i/user3.jpg"
+    _2x: "img/who-am-i/user3.jpg"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+    btnAction: 'mailto:vineet.agarw0l@gmail.com'
+
+  phone:
+    title: "Phone Number"
+    number: "+4915560117921"
+  email:
+    title: "Email"
+    email: '<a href="mailto:vineet.agarw0l@gmail.com">vineet.agarw0l@gmail.com</a>'
+  address:
+    title: "Address"
+    address: "Magdeburg, Germany"
+
+
