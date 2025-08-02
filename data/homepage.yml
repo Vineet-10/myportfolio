@@ -4,9 +4,10 @@ head:
 # showcase
 showcase:
   enable: true
-  title: "Vineet Kumar Agarwal."
+  title: "Vineet Kumar Agarwal"
   subtitle: "Data Scientist"
-  description: " Write a brief Summary"
+  description: "<strong>Curious by nature, Driven by data.</strong> I am a Data Science enthusiast driven by a single question: <strong>“What story is this data trying to tell?”</strong>
+                Currently advancing my education, while also looking to collaborate with forward-thinking teams that are eager to harness data’s full potential to transform industries and shape the future."
   image:
     x: "img/showcase/mlops.gif"
     _2x: "img/showcase/mlops.gif"
@@ -55,7 +56,8 @@ about:
 experience:
   enable: true
   title: "Experience"
-  description: "Over 3+ years of experience working with companies from all over the world. I specialize in developing data-driven products ,from dashboards to data science solutions, to help businesses increase profitability and improve customer experience."
+  description: "Over 3+ years of experience working with companies from all over the world. I specialize in developing data-driven products, from dashboards to data science solutions, to help businesses increase profitability and improve customer experience.
+                My track record of delivering impact in diverse analytical roles speaks to my commitment to driving business success and fostering collaborative environments."
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"
@@ -67,6 +69,10 @@ experience:
 
 
   items:
+    - title: "HiWi: Research Assistant"
+      company: "Otto Von Guericke University"
+      duration: "May 2025 - Jun 2025"
+
     - title: "Data Analyst"
       company: "Data Radian Technologies (Fortune Brands Innovations)"
       duration: "Jun 2022 - May 2024"
@@ -156,6 +162,18 @@ client_and_work:
         x: "img/works/gastro.png"
         _2x: "img/works/gastro.png"
       is_even: false
+
+    - title: "Football Dashboard Analysis"
+      description: "This project presents a comprehensive Power BI dashboard built to analyze and visualize data from two major Indian football leagues: the Indian Super League (ISL) and the I-League.
+                    The dashboard was developed specifically as a pitch to the All India Football Federation (AIFF) to demonstrate actionable insights, trends, and performance metrics across the leagues. "
+      button:
+        icon: "icon-arrow-right"
+        btnText: "GitHub Repo"
+        URL: "https://github.com/Vineet-10/Football_Dashboard"
+      image:
+        x: "img/works/dash.png"
+        _2x: "img/works/dash.png"
+      is_even: true
 
 
 

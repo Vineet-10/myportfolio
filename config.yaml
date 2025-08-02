@@ -11,7 +11,7 @@ params:
   googleAnalyticsID: ''
   logo:
     text1: Vineet
-    text2: Agarwal
+    text2: Ag
   plugins:
     css:
       - URL: css/main.css
