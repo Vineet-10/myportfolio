@@ -42,7 +42,7 @@ about:
     </p>
     <p class="lead">
     <strong>My area of focus</strong> is on leveraging data science to drive business growth / research. I specialize in analyzing data to uncover
-    insights that improves efficieny and enhance decision-making. Working with stakeholders to develop data-driven solutions for business challenges excites me,
+    insights that improves efficiency and enhance decision-making. Working with stakeholders to develop data-driven solutions for business challenges excites me,
     and I am dedicated to staying current with the ever-evolving landscape of AI and machine learning.
   button:
     icon: "icon-smile-fill"
@@ -65,11 +65,11 @@ experience:
   button2:
     icon: "icon-profile-fill"
     btnText: "Download My Resume"
-    URL: "#"
+    URL: "https://drive.google.com/file/d/1jC1dfimRDjd-pr31wFqWFvkscx8ASv-H/view?usp=sharing"
 
 
   items:
-    - title: "HiWi: Research Assistant"
+    - title: "Research Assistant"
       company: "Otto Von Guericke University"
       duration: "May 2025 - Jun 2025"
 
@@ -139,9 +139,10 @@ client_and_work:
       alt: "Ztos"
 
   works:
-    - title: "Simulation and Analysis of Shipment Trajectories"
-      description: "Developing a physics-based and machine learning model in Python to predict shipment trajectories based on environmental data analysis of historical AIS datasets for ships
-                    operating in the Rheinhafen and Cuxhafen port regions. StreamLit UI being used for Frontend Simulation"
+    - title: "Weather Aware Ship Prediction & Simulation"
+      description: "Developing Built physics-based + deep learning models in Python to forecast ship
+                    trajectories from historical AIS and weather data. Trained LSTM/Transformer models alongside
+                    kinematic/Kalman baselines for physics-based. StreamLit UI being used for Frontend Simulation"
       button:
         icon: "icon-arrow-right"
         btnText: "GitHub Repo"
